@@ -1,0 +1,112 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Youtube search positive scenarios",
+        "description": "",
+        "id": "youube-search-validation;youtube-search-positive-scenarios;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 28039784851,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open chrome and enter URL and search \"Bakkappa selenium\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bakkappa selenium",
+                  "offset": 38
+                }
+              ],
+              "location": "YoutubeSearch.open_chrome_browser_and_enter_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 791282138,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter search criteria",
+            "match": {
+              "location": "YoutubeSearch.enterSearchCriteria()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UATTesting"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Youtube search positive scenarios",
+        "description": "",
+        "id": "youube-search-validation;youtube-search-positive-scenarios;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24618209110,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open chrome and enter URL and search \"Firends\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Firends",
+                  "offset": 38
+                }
+              ],
+              "location": "YoutubeSearch.open_chrome_browser_and_enter_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 678566424,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter search criteria",
+            "match": {
+              "location": "YoutubeSearch.enterSearchCriteria()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UATTesting"
+          }
+        ]
+      }
+    ],
+    "name": "Youube search validation",
+    "description": "",
+    "id": "youube-search-validation",
+    "keyword": "Feature",
+    "uri": "./features/youtubeSearch.feature",
+    "tags": [
+      {
+        "name": "@UATTesting",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
